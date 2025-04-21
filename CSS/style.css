@@ -1,0 +1,123 @@
+/* Reset default margins, paddings and set base font & box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* Ensure the html and body take full height */
+html, body {
+  height: 100%;
+}
+
+/* Set gradient background for body */
+body {
+  background-image: linear-gradient(pink, purple);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Centered container box */
+.container {
+  width: 30%;
+  height: 65%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px black;
+}
+
+/* Form layout styling */
+.myform {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Heading container */
+.heading {
+  margin-top: 25px;
+}
+
+/* Heading text style */
+.heading h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+}
+
+/* Label styling for inputs */
+label {
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Input field styling */
+input {
+  margin-top: 5px;
+  width: 300px;
+  height: 35px;
+}
+
+/* Button container margin */
+.btn {
+  margin-top: 25px;
+}
+
+/* Button styling */
+.btn button {
+  font-size: 14px;
+  font-weight: bold;
+  background: purple;
+  color: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.btn button:hover {
+  background: white;
+  color: purple;
+}
+
+/* Register section text and spacing */
+.register {
+  margin-bottom: 35px;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+/* Style for the <pre> inside register section */
+.register pre {
+  margin-left: 5px;
+  margin-bottom: 7px;
+}
+
+/* Show password checkbox section */
+#show {
+  display: flex;
+  margin-right: 185px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Checkbox input sizing */
+#show input {
+  height: 10px;
+}
+
+/* Text next to checkbox */
+#show p {
+  font-size: 13px;
+  margin-left: -130px;
+}
