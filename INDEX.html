@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h1>Apple</h1>
+  <h2>Base ball</h2>
+  <h3>Combat</h3>
+  <h4>Destiny</h4>
+  <h5>Efficient</h5>
+  <h6>Furious</h6>
+  
+  <p><i>India is known for its rich and varied heritage</i></p>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSabmf2IqyRLN2dRNs5ITtGJgL8YCIytphT1w&s" alt="Description" width="300" height="200" />
+  
+  <br><br>
+<iframe src="https://example.com" width="500" height="300"></iframe>
+    <br><br>
+    <input type="text" name="username" placeholder="Enter name" required />
+     <br><br>
+  
+  <table>
+  <thead>
+    <tr><th>Name</th><th>Age</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Alice</td><td>25</td></tr>
+  </tbody>
+</table>
+  <br>
+
+<button id="btn" type="button">Click</button>
+
+<script>
+  const btn = document.getElementById("btn");
+  let count = 0;
+
+  function handleClick() {
+    count++; // increment count
+    btn.innerHTML = count === 0 ? "Click" : count;
+  }
+
+  btn.addEventListener("click", handleClick);
+</script>
+
+</body>
+
+</html>
