@@ -17,7 +17,7 @@ body{
 
 .container{
   width:30%;
-  height: 60%;
+  height: 65%;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -80,14 +80,19 @@ input{
 
 .register{
   margin-bottom: 35px;
-  font-size: 14px;
-  margin-top: 10px;
+  font-size: 13px;
+  margin-top: 20px;
 }
+.register pre{
+  margin-left:5px;
+  margin-bottom: 7px;
+}
+
 #show{
  display: flex;
  margin-right: 185px;
  width: 100%;
-
+ margin-top: 10px;
 }
 #show input{
    height: 10px;
