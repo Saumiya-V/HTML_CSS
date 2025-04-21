@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+}
+
+body{
+  background-image:linear-gradient(pink ,purple ) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.container{
+  width:30%;
+  height: 60%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px black;
+  
+}
+
+.myform{
+  display: flex;
+  flex-direction: column;
+  width:100%
+}
+
+.heading{
+  margin-top: 25px;
+}
+
+.heading h2{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 26px;
+}
+
+label{
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+input{
+  margin-top: 5px;
+  width:300px;
+  height: 35px;
+}
+
+.btn{
+  margin-top: 25px;
+}
+
+.btn button{
+  font-size: 14px;
+  font-weight: bold;
+  background:purple ;
+  color:white;
+  width:300px;
+  padding:10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btn button:hover{
+  background:white ;
+  color:purple ;
+}
+
+.register{
+  margin-bottom: 35px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+#show{
+ display: flex;
+ margin-right: 185px;
+ width: 100%;
+
+}
+#show input{
+   height: 10px;
+}
+#show p{
+  font-size: 13px;
+  margin-left: -130px;
+
+}
